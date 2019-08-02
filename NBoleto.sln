@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBoletoCore", "NBoletoCore\NBoletoCore.csproj", "{B25E25AB-78A9-4EF0-8DA1-A78B47772D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A56B400B-F36C-4B0B-8FFB-18605DE5AF6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B25E25AB-78A9-4EF0-8DA1-A78B47772D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25E25AB-78A9-4EF0-8DA1-A78B47772D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25E25AB-78A9-4EF0-8DA1-A78B47772D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25E25AB-78A9-4EF0-8DA1-A78B47772D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56B400B-F36C-4B0B-8FFB-18605DE5AF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56B400B-F36C-4B0B-8FFB-18605DE5AF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56B400B-F36C-4B0B-8FFB-18605DE5AF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56B400B-F36C-4B0B-8FFB-18605DE5AF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42469B58-00C0-4448-96EA-F08E4BCB6BEE}
+	EndGlobalSection
+EndGlobal

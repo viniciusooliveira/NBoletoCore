@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageId>NBoletoCore</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Vinícius Oliveira</Authors>
+    <PackageProjectUrl>https://github.com/viniciusooliveira/NBoletoCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/viniciusooliveira/NBoletoCore</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logos\001.jpg" />
+    <None Remove="Logos\003.jpg" />
+    <None Remove="Logos\004.jpg" />
+    <None Remove="Logos\008.jpg" />
+    <None Remove="Logos\021.jpg" />
+    <None Remove="Logos\024.jpg" />
+    <None Remove="Logos\027.jpg" />
+    <None Remove="Logos\029.jpg" />
+    <None Remove="Logos\033.jpg" />
+    <None Remove="Logos\041.jpg" />
+    <None Remove="Logos\047.jpg" />
+    <None Remove="Logos\070.jpg" />
+    <None Remove="Logos\104.jpg" />
+    <None Remove="Logos\151.jpg" />
+    <None Remove="Logos\237.jpg" />
+    <None Remove="Logos\244.jpg" />
+    <None Remove="Logos\246.jpg" />
+    <None Remove="Logos\263.jpg" />
+    <None Remove="Logos\266.jpg" />
+    <None Remove="Logos\275.jpg" />
+    <None Remove="Logos\291.jpg" />
+    <None Remove="Logos\320.jpg" />
+    <None Remove="Logos\341.jpg" />
+    <None Remove="Logos\347.jpg" />
+    <None Remove="Logos\353.jpg" />
+    <None Remove="Logos\356.jpg" />
+    <None Remove="Logos\389.jpg" />
+    <None Remove="Logos\392.jpg" />
+    <None Remove="Logos\399.jpg" />
+    <None Remove="Logos\409.jpg" />
+    <None Remove="Logos\422.jpg" />
+    <None Remove="Logos\424.jpg" />
+    <None Remove="Logos\453.jpg" />
+    <None Remove="Logos\479.jpg" />
+    <None Remove="Logos\600.jpg" />
+    <None Remove="Logos\604.jpg" />
+    <None Remove="Logos\610.jpg" />
+    <None Remove="Logos\623.jpg" />
+    <None Remove="Logos\633.jpg" />
+    <None Remove="Logos\637.jpg" />
+    <None Remove="Logos\641.jpg" />
+    <None Remove="Logos\643.jpg" />
+    <None Remove="Logos\702.jpg" />
+    <None Remove="Logos\707.jpg" />
+    <None Remove="Logos\721.jpg" />
+    <None Remove="Logos\738.jpg" />
+    <None Remove="Logos\741.jpg" />
+    <None Remove="Logos\745.jpg" />
+    <None Remove="Logos\748.jpg" />
+    <None Remove="Logos\749.jpg" />
+    <None Remove="Logos\756.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Logos\001.jpg" />
+    <EmbeddedResource Include="Logos\003.jpg" />
+    <EmbeddedResource Include="Logos\004.jpg" />
+    <EmbeddedResource Include="Logos\008.jpg" />
+    <EmbeddedResource Include="Logos\021.jpg" />
+    <EmbeddedResource Include="Logos\024.jpg" />
+    <EmbeddedResource Include="Logos\027.jpg" />
+    <EmbeddedResource Include="Logos\029.jpg" />
+    <EmbeddedResource Include="Logos\033.jpg" />
+    <EmbeddedResource Include="Logos\041.jpg" />
+    <EmbeddedResource Include="Logos\047.jpg" />
+    <EmbeddedResource Include="Logos\070.jpg" />
+    <EmbeddedResource Include="Logos\104.jpg" />
+    <EmbeddedResource Include="Logos\151.jpg" />
+    <EmbeddedResource Include="Logos\237.jpg" />
+    <EmbeddedResource Include="Logos\244.jpg" />
+    <EmbeddedResource Include="Logos\246.jpg" />
+    <EmbeddedResource Include="Logos\263.jpg" />
+    <EmbeddedResource Include="Logos\266.jpg" />
+    <EmbeddedResource Include="Logos\275.jpg" />
+    <EmbeddedResource Include="Logos\291.jpg" />
+    <EmbeddedResource Include="Logos\320.jpg" />
+    <EmbeddedResource Include="Logos\341.jpg" />
+    <EmbeddedResource Include="Logos\347.jpg" />
+    <EmbeddedResource Include="Logos\353.jpg" />
+    <EmbeddedResource Include="Logos\356.jpg" />
+    <EmbeddedResource Include="Logos\389.jpg" />
+    <EmbeddedResource Include="Logos\392.jpg" />
+    <EmbeddedResource Include="Logos\399.jpg" />
+    <EmbeddedResource Include="Logos\409.jpg" />
+    <EmbeddedResource Include="Logos\422.jpg" />
+    <EmbeddedResource Include="Logos\424.jpg" />
+    <EmbeddedResource Include="Logos\453.jpg" />
+    <EmbeddedResource Include="Logos\479.jpg" />
+    <EmbeddedResource Include="Logos\600.jpg" />
+    <EmbeddedResource Include="Logos\604.jpg" />
+    <EmbeddedResource Include="Logos\610.jpg" />
+    <EmbeddedResource Include="Logos\623.jpg" />
+    <EmbeddedResource Include="Logos\633.jpg" />
+    <EmbeddedResource Include="Logos\637.jpg" />
+    <EmbeddedResource Include="Logos\641.jpg" />
+    <EmbeddedResource Include="Logos\643.jpg" />
+    <EmbeddedResource Include="Logos\702.jpg" />
+    <EmbeddedResource Include="Logos\707.jpg" />
+    <EmbeddedResource Include="Logos\721.jpg" />
+    <EmbeddedResource Include="Logos\738.jpg" />
+    <EmbeddedResource Include="Logos\741.jpg" />
+    <EmbeddedResource Include="Logos\745.jpg" />
+    <EmbeddedResource Include="Logos\748.jpg" />
+    <EmbeddedResource Include="Logos\749.jpg" />
+    <EmbeddedResource Include="Logos\756.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
