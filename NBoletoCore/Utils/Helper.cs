@@ -37,7 +37,7 @@ namespace NBoletoCore.Utils
 
         public static string Logotipo(string codbanco)
         {
-            using (var stream = typeof(Helper).Assembly.GetManifestResourceStream("NBoleto.Logos." + codbanco + ".jpg"))
+            using (var stream = typeof(Helper).Assembly.GetManifestResourceStream("NBoletoCore.Logos." + codbanco + ".jpg"))
             {
                 return "data:image/jpg;base64," + Convert.ToBase64String(ReadFully(stream));
             }

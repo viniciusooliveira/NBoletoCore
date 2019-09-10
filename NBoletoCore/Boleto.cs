@@ -58,11 +58,9 @@ namespace NBoletoCore
             b.ValorDocumento = vrBoleto.ToString(MONEY_FORMAT);
             b.Instrucoes = "ATENÇÃO SENHOR CAIXA: NÃO RECEBER APÓS VENCIMENTO";
 
-#if !DEBUG
             // Quando release, gera o Base64 do logotipo e codigo de barras
             b.Logotipo = Helper.Logotipo(b.Banco.Substring(0, 3));
             b.CodigoBarras = Helper.CodigoBarras(b.CodigoBarras);
-#endif
 
             return b;
         }
